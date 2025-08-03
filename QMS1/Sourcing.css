@@ -70,7 +70,6 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            transition: all 0.3s ease;
             min-height: 70px;
         }
 
@@ -157,7 +156,6 @@
             border: 2px solid #e9ecef;
             border-radius: 25px;
             font-size: 0.95rem;
-            transition: all 0.3s ease;
             background: #f8f9fa;
         }
 
@@ -189,7 +187,7 @@
             font-size: 0.95rem;
             background: #f8f9fa;
             cursor: pointer;
-            transition: all 0.3s ease;
+            
             min-width: 180px;
             white-space: nowrap;
         }
@@ -211,7 +209,7 @@
             font-size: 0.95rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            
             display: flex;
             align-items: center;
             gap: 8px;
@@ -234,7 +232,7 @@
             font-size: 0.95rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            
             display: flex;
             align-items: center;
             gap: 8px;
@@ -256,7 +254,7 @@
             font-size: 0.95rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            
             display: flex;
             align-items: center;
             gap: 8px;
@@ -279,7 +277,7 @@
             font-size: 0.95rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            
             display: flex;
             align-items: center;
             gap: 8px;
@@ -301,7 +299,7 @@
             font-size: 1rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            
             box-shadow: 0 6px 20px rgba(40, 167, 69, 0.2);
             margin-top: 20px;
         }
@@ -587,7 +585,7 @@
             font-size: 0.85rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            
             display: flex;
             align-items: center;
             justify-content: center;
@@ -621,7 +619,7 @@
             font-size: 0.85rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            
             display: flex;
             align-items: center;
             justify-content: center;
@@ -677,7 +675,7 @@
             font-size: 0.85rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            
             display: flex;
             align-items: center;
             justify-content: center;
@@ -711,7 +709,7 @@
             font-size: 0.85rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            
             display: flex;
             align-items: center;
             justify-content: center;
@@ -969,7 +967,7 @@
             }
         }
 
-        /* Apply fade-in animation to main content */
+        /* Apply no animation to main content */
         .sourcing-container {
-            animation: fadeIn 0.5s ease-out;
+            /* animation removed for better performance */
         }

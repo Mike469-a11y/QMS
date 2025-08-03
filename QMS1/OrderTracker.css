@@ -312,6 +312,7 @@
     overflow: hidden;
     border: 1px solid #e1e8ed;
     background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .order-tracker-table-header {
@@ -1026,16 +1027,24 @@
 
     .order-tracker-orders-table {
         overflow-x: auto;
+        border-radius: 4px;
     }
 
     .order-tracker-table-header,
     .order-tracker-table-row {
-        grid-template-columns: 50px 100px 110px 150px 100px 305px 100px 90px 100px 70px 150px;
-        min-width: 1225px;
+        grid-template-columns: 45px 90px 100px 140px 90px 280px 90px 80px 90px 65px 140px;
+        min-width: 1200px;
     }
 
     .order-tracker-status-badge {
-        max-width: 295px;
+        max-width: 270px;
+        font-size: 0.75rem;
+        padding: 4px 8px;
+    }
+
+    .order-tracker-cell {
+        font-size: 0.8rem;
+        padding: 10px 6px;
     }
 }
 
@@ -1048,6 +1057,60 @@
         flex-direction: column;
         gap: 15px;
         text-align: center;
+        padding: 20px;
+    }
+
+    .order-tracker-title-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .order-tracker-categories-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .order-tracker-orders-table {
+        border-radius: 4px;
+        font-size: 0.75rem;
+    }
+
+    .order-tracker-table-header,
+    .order-tracker-table-row {
+        grid-template-columns: 40px 80px 90px 120px 80px 200px 80px 70px 80px 60px 120px;
+        min-width: 1020px;
+    }
+
+    .order-tracker-cell {
+        padding: 8px 4px;
+        font-size: 0.75rem;
+    }
+
+    .order-tracker-header-cell {
+        padding: 8px 4px;
+        font-size: 0.7rem;
+    }
+
+    .order-tracker-status-badge {
+        max-width: 190px;
+        font-size: 0.65rem;
+        padding: 3px 6px;
+    }
+
+    .order-tracker-modal {
+        margin: 10px;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .order-tracker-form-grid {
+        gap: 15px;
+    }
+
+    .order-tracker-form-row {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
         padding: 20px;
     }
 

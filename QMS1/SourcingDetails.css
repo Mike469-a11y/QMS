@@ -74,7 +74,7 @@
     font-size: 0.8rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    
     display: flex;
     align-items: center;
     gap: 6px;
@@ -380,7 +380,7 @@
     background: #f8f9fa;
     border-radius: 8px;
     border-left: 3px solid #17a2b8;
-    transition: all 0.3s ease;
+    
 }
 
 .qms-field:hover {
@@ -465,7 +465,7 @@
     font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    
     display: flex;
     align-items: center;
     gap: 8px;
@@ -491,7 +491,7 @@
     border-radius: 12px;
     padding: 15px 20px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    
     position: relative;
     min-width: 200px;
     flex: 1;
@@ -544,7 +544,7 @@
     color: inherit;
     padding: 2px 0;
     border-bottom: 1px solid transparent;
-    transition: all 0.3s ease;
+    
 }
 
 .vendor-name-input:focus {
@@ -594,7 +594,7 @@
     border-radius: 6px;
     cursor: pointer;
     font-size: 0.8rem;
-    transition: all 0.3s ease;
+    
 }
 
 .vendor-tab:not(.active) .vendor-actions-btn {
@@ -636,7 +636,7 @@
     text-align: left;
     cursor: pointer;
     font-size: 0.85rem;
-    transition: all 0.3s ease;
+    
 }
 
 .vendor-dropdown-menu button:hover {
@@ -709,7 +709,7 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
     border: 1px solid #e9ecef;
     border-left: 4px solid #fd7e14;
-    animation: slideInUp 0.4s ease-out;
+    
 }
 
 @keyframes slideInUp {
@@ -755,7 +755,7 @@
     border: 2px solid #e9ecef;
     border-radius: 8px;
     font-size: 0.9rem;
-    transition: all 0.3s ease;
+    
     background: white;
     font-family: inherit;
 }
@@ -783,7 +783,7 @@
 /* Risk Assessment Select with Color Coding */
 .risk-assessment-select {
     font-weight: 600;
-    transition: all 0.3s ease;
+    
 }
 
 .risk-assessment-select:focus {
@@ -880,7 +880,7 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
     border: 1px solid #e9ecef;
     border-left: 4px solid #28a745;
-    animation: slideInUp 0.4s ease-out 0.1s both;
+    
 }
 
 .pricing-section .section-icon {
@@ -917,7 +917,7 @@
     font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    
     display: flex;
     align-items: center;
     gap: 8px;
@@ -976,7 +976,7 @@
     border: 1px solid #e9ecef;
     border-radius: 6px;
     font-size: 0.85rem;
-    transition: all 0.3s ease;
+    
     background: white;
 }
 
@@ -1022,7 +1022,7 @@
     border-radius: 20px;
     font-size: 0.8rem;
     cursor: pointer;
-    transition: all 0.3s ease;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1067,7 +1067,7 @@
     background: white;
     border-radius: 8px;
     border: 1px solid #e9ecef;
-    transition: all 0.3s ease;
+    
 }
 
 .cost-item:hover {
@@ -1098,7 +1098,7 @@
     border-radius: 6px;
     font-size: 0.85rem;
     text-align: right;
-    transition: all 0.3s ease;
+    
 }
 
 .cost-input:focus {
@@ -1184,7 +1184,7 @@
     font-size: 0.95rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    
     display: flex;
     align-items: center;
     gap: 8px;
@@ -1453,7 +1453,7 @@
 }
 
 .sourcing-details-container {
-    animation: fadeIn 0.5s ease-out;
+    
 }
 
 /* Smooth Transitions */
