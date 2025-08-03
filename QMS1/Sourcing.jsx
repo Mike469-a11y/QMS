@@ -20,13 +20,11 @@ const Sourcing = () => {
                 // ✅ Filter out entries hidden from sourcing
                 const visibleEntries = parsedEntries.filter(entry => !entry.hiddenFromSourcing);
                 setSourcingEntries(visibleEntries);
-                console.log('Loaded sourcing entries:', visibleEntries); // Debug log
             } catch (error) {
                 console.error('Error parsing sourcing entries:', error);
                 setSourcingEntries([]);
             }
         } else {
-            console.log('No sourcing entries found in localStorage'); // Debug log
             setSourcingEntries([]);
         }
     };
