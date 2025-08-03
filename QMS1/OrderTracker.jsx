@@ -825,7 +825,7 @@ const OrderTracker = ({ onBack, currentUser, currentDateTime }) => {
                                         </div>
                                         <div className="order-tracker-view-row">
                                             <div className="order-tracker-view-field">
-                                                <label>Net Profit From PO's:</label>
+                                                <label>Net Profit From PO&apos;s:</label>
                                                 <span className="order-tracker-view-profit">{formatFieldValue(viewingOrder.netProfitFromPOs, 'profit')}</span>
                                             </div>
                                             <div className="order-tracker-view-field">
@@ -1272,14 +1272,14 @@ const OrderTracker = ({ onBack, currentUser, currentDateTime }) => {
 
                                     <div className="order-tracker-form-row">
                                         <div className="order-tracker-form-group">
-                                            <label>Net Profit From PO's</label>
+                                            <label>Net Profit From PO&apos;s</label>
                                             <input
                                                 type="number"
                                                 step="0.01"
                                                 value={formData.netProfitFromPOs}
                                                 onChange={(e) => handleInputChange('netProfitFromPOs', e.target.value)}
                                                 className={getInputFieldClass('netProfitFromPOs')}
-                                                placeholder="Enter net profit from PO's"
+                                                placeholder="Enter net profit from PO&apos;s"
                                             />
                                         </div>
                                         <div className="order-tracker-form-group">
@@ -1309,7 +1309,7 @@ const OrderTracker = ({ onBack, currentUser, currentDateTime }) => {
                                             fontSize: '0.8rem',
                                             marginBottom: '12px'
                                         }}>
-                                            <strong>📋 QMS ID:</strong> "{formData.qmsId || editingOrder?.qmsId || 'EMPTY'}"
+                                            <strong>📋 QMS ID:</strong> &quot;{formData.qmsId || editingOrder?.qmsId || 'EMPTY'}&quot;
                                             {attachments.length > 0 && ` | 📎 ${attachments.length} attachments loaded`}
                                         </div>
                                     )}

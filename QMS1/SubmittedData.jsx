@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback, memo } from 'react';
+import React, { useState, useEffect, useMemo, memo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import IndexedDBManager from './IndexedDBManager';
 import './SubmittedData.css';
@@ -8,7 +8,6 @@ const EntryDetailsModal = memo(({
     show,
     entry,
     onClose,
-    currentUser,
     isAdmin,
     isSubAdmin,
     onEdit,
